@@ -1,0 +1,212 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+#accueil{
+    height: 100vh;
+   background-image: url(../img/accueil1.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+#accueil .row .col-lg-8{
+    padding: 10px; 
+    position: relative;
+}
+#accueil .row .col-lg-8 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: darkgrey;
+    text-shadow: 0px 0px 10px black ;
+}
+
+#Offresp h4{
+    /* margin-top: 20px; */
+    text-align: center;
+    background-color: dodgerblue;
+    color: cornsilk;
+}
+.car{
+    display: flex;
+    
+}
+#Offresp .car .card{
+    text-align: center;
+    width: 30%;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px;
+    transition: 2s;
+    
+}
+#Offresp .car .card:hover{
+    transform: rotate(20deg);
+    background-color: brown;
+}
+#Offresp .car .card img{
+    width: 100%;
+    transition: 2s;
+}
+
+#Offresp .car .card h5{
+    background-color: goldenrod;
+    font-weight: bold;
+}
+#destination .lieu{
+display: flex;
+gap: 20px;
+}
+#destination .lieu .card{
+    width: 49%;
+    padding: 10px;
+    left: 1%;
+    right: 1%;
+    transition: 2s
+}
+#destination .lieu .card:hover{
+    transform: scale(1.1);
+}
+
+#destination .lieu .card img{
+    width: 100%;
+}
+#destination .lieu .card h5{
+    background-color: forestgreen;
+    font-weight: bold;
+    color: white;
+}
+#destination{
+    text-align: center;
+}
+#destination h4{
+    margin-top: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: cornsilk;
+}
+
+#activites .table{
+    left: 50%;
+    right: 50%;
+}
+#activites h4{
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+    text-decoration: underline;
+}
+#blog h4{
+    margin-top: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: cornsilk;
+}
+#offre h4{
+    margin-top: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: cornsilk;
+}
+#offre .car .card{
+    text-align: center;
+    width: 30%;
+    margin-left: 20px;
+    box-shadow: rgb(207, 77, 77) 0px 0px 10px;
+    transition: 2s;
+    
+} 
+#apropos h4{
+    margin-top: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: cornsilk;
+}
+#apropos .formulaire{
+    margin: auto;
+    width: 97%;
+    padding-right: 30px;
+    box-shadow: 0px 0px 9px rgb(79, 187, 88);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: 2s;
+    padding: 20px;
+}
+#apropos .formulaire ul li{
+    list-style: none;
+}
+#apropos .formulaire ul img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+#contact h4 {
+    margin-top: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: cornsilk;
+}
+#contact .formulaire{
+    margin: auto;
+    width: 55%;
+    padding: 10px;
+    box-shadow: 0px 0px 9px navy;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: 2s;
+}
+#contact .formulaire:hover{
+    width: 60%;
+
+}
+#contact p{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#contact .formulaire .ligne{
+    width: 100%;
+    height: 1px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+#contact .formulaire div{
+    display: flex;
+    gap: 10px;
+}
+#contact .formulaire div .part1 ul{
+    list-style: none;
+}
+#contact .formulaire div .part1 ul li{
+    margin-top: 10px;
+}
+#contact .formulaire div .part1 ul li input{
+ width: 110%;
+ border-radius: 5px;
+ padding: 2.3px;
+ border: 0.5px solid navy;
+}
+#contact .formulaire div .part1 ul li select{
+    width: 110%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 0.5px solid navy;
+   }
+#contact .formulaire div .part2 ul{
+    list-style: none;
+}
+#contact .formulaire div .part2 ul li textarea{
+    list-style: none;
+    resize: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 225px;
+    width: 150%;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(241, 232, 232);
+}
+ @media  (max-widith:500px) {
+    #accueil .row .col-lg-8{
+        
+        position: relative;
+    }
+} 
